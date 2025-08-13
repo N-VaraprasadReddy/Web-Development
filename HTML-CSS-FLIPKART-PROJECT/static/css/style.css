@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+  outline: none;
+}
+
+.navbar {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-bar i {
+  font-size: 30px;
+  margin-right: 15px;
+  color: #92928f;
+}
+
+.logo-title a {
+  font-size: 1.3rem;
+  color: blue;
+  text-decoration: none;
+}
+
+.logo-sub-title a {
+  font-size: 0.8rem;
+  color: #92928f;
+}
+
+.logo-sub-title span {
+  font-size: 0.8rem;
+  color: gold;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0eb;
+}
+
+.search:hover {
+  border: 1px solid rgb(70, 68, 187);
+}
+.search i {
+  font-size: 25px;
+  color: #92928f;
+  padding-left: 10px;
+}
+
+.search input {
+  font-size: 1.2rem;
+  height: 38px;
+  width: 30rem;
+  border: none;
+  background-color: #f0f0eb;
+  padding-left: 10px;
+}
+
+.login a {
+  height: 40px;
+  width: 75px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding-left: 10px;
+  color: #0c0c0c;
+}
+
+.login a:hover {
+  background-color: blue;
+  color: #f0f0eb;
+  border-radius: 5px;
+}
+
+.login i {
+  padding-right: 5px;
+}
+
+.cart i {
+  font-size: 25px;
+  color: #585856;
+}
+
+.cart span {
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+  padding-left: 5px;
+}
+
+/* pannel bar starts */
+
+.pannel-bar {
+  height: 130px;
+  width: 100%;
+  margin: 15px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.box-img {
+  height: 80px;
+  width: 80px;
+  background-size: cover;
+}
+
+#title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hero Section */
+
+.carousel-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  width: 50%;
+}
+
+/* Fasion Deals */
+
+.fashion-deals {
+  margin-top: 15px;
+}
+
+#fasion-title {
+  text-align: center;
+}
+
+.fashion-day-deals {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.fashion-img {
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+}
+
+.fashion-title {
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Deals Of The Day */
+
+.deals-header {
+  margin-top: 15px;
+}
+
+#deals-title {
+  text-align: center;
+}
+.delas-of-the-day {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.day-deals-img {
+  height: 200px;
+  width: 400px;
+  background-size: cover;
+}
+
+.day-deals-title {
+  text-align: center;
+  font-weight: 600;
+  padding: 10px;
+}
+
+/** Footer Section **/
+footer {
+  height: 16rem;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  color: white;
+  background-color: #4a4848;
+}
+
+.footer-content a {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  padding-top: 10px;
+}
