@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   border: border-box;
   outline: none;
@@ -106,7 +107,8 @@
 .pannel-bar {
   height: 130px;
   width: 100%;
-  margin: 15px 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -126,14 +128,10 @@
 
 /* Hero Section */
 
-.carousel-slide {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: cover;
-  width: 50%;
+.hero-img {
+  height: 300px;
+  width: 100%;
 }
-
 /* Fasion Deals */
 
 .fashion-deals {
@@ -142,36 +140,39 @@
 
 #fasion-title {
   text-align: center;
+  background-color: rgb(220, 228, 241);
 }
 
 .fashion-day-deals {
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 
+.fashion {
+  height: 330px;
+  width: 23%;
+}
 .fashion-img {
   height: 300px;
-  width: 300px;
+  width: 100%;
   background-size: cover;
 }
 
-.fashion-title {
+.fashion-sub-title {
   font-weight: 600;
   text-align: center;
   padding: 10px;
 }
 
 /* Deals Of The Day */
-
-.deals-header {
-  margin-top: 15px;
-}
-
 #deals-title {
   text-align: center;
+  background-color: rgb(220, 228, 241);
 }
+
 .delas-of-the-day {
   margin-top: 10px;
   display: flex;
@@ -180,16 +181,20 @@
   flex-wrap: wrap;
 }
 
+.day-deals {
+  height: 230px;
+  width: 31%;
+}
+
 .day-deals-img {
   height: 200px;
-  width: 400px;
+  width: 100%;
   background-size: cover;
 }
 
 .day-deals-title {
   text-align: center;
   font-weight: 600;
-  padding: 10px;
 }
 
 /** Footer Section **/
@@ -199,14 +204,12 @@ footer {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
-  color: white;
-  background-color: #4a4848;
+  color: rgb(207, 167, 167);
+  background-color: #323131;
 }
 
-.footer-content a {
+.content-area a {
   display: block;
-  text-align: center;
-  justify-content: center;
   text-decoration: none;
   color: white;
   padding-top: 10px;
